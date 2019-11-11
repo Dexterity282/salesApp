@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table id = "demo">
+
+
+ </table>
+<script>
+var num ="";
+var copy = "Photocopy";
+var numm = 4;
+var amt = 200;
+var mop = "Cash";
+
+var serial = [];
+serial.push({Number:numm,category:copy,amount:amt,MOP:mop});
+
+/*for(i=0; i < serial.length; i++ ){
+num +=serial[i] + "<br>";
+
+
+}*/
+for(i=0; i < serial.length; i++){
+num +="<tr><td>" + Number(i+1) + "</td><td>"+serial[i].category+"</td><td>"+serial[i].amount+"</td><td>"+serial[i].MOP+"</td></tr>";
+}
+document.getElementById("demo").innerHTML = num;
+</script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/js/tryit.asp?filename=tryjs_array by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Mar 2017 20:54:03 GMT -->
+</html>

@@ -5,12 +5,9 @@
 
 .navbar-inverse {
 background-color: blue;
-font-color: black;
-
-
+border-color: blue;
 }
-.navbar{border-color: blue;
-}
+
 .navbar-font {
 	color: red;
 }
@@ -19,11 +16,12 @@ font-color: black;
 	letter-spacing: 3PX;
 	text-transform: uppercase;
 	
+	
 }
 .navbar-nav {
 	letter-spacing: 3PX;
 	text-transform: uppercase;
-	
+
 }
 .navbar-collapse {
 	font-color: red;
